@@ -17,20 +17,20 @@ Prior to building, you will need basic knowledge of [Git](https://www.atlassian.
 1. Run the following commands to sync source
 
 ```
-repo init -u https://github.com/Project-Awaken/android_manifest -b triton --git-lfs
+repo init -u https://github.com/Awaken-T/android_manifest -b triton --git-lfs
 ```
 2. To sync source, enter
 
 ```
- repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 3. Once the source is downloaded/synced, prepare your device trees, dependencies and start the build by the following commands
 
 ```
-   source build/envsetup.sh
-   lunch awaken_<devicecodename>-user
-   make bacon -j$(nproc --all)
+source build/envsetup.sh
+lunch awaken_device-userdebug
+make bacon -j$(nproc --all)
 ```
 
 ### Compilation Help

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- GitLab -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- GitHub (Project-Awaken) -->
+  <remote  name="awaken"
+           fetch="https://github.com/Project-Awaken/"
+           revision="triton" />
+
+  <!-- GitHub (Project-Awaken) -->
+  <remote  name="awaken-t"
+           fetch="https://github.com/Awaken-T/"
+           revision="triton" />
+
+  <!-- GitHub (LineageOS) -->
+  <remote  name="LineageOS"
+           fetch="https://github.com/"
+           revision="lineage-20.0" />
+
+  <!-- GitLab (Project-Awaken) -->
+  <remote  name="awaken-gitlab"
+           fetch="https://gitlab.com/Project-Awaken/"
+           revision="triton" />
+
+</manifest>
