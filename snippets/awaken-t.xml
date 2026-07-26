@@ -18,6 +18,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" remote="awaken-t" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" groups="pdk" remote="awaken-t" />
   
   <!-- Frameworks -->
